@@ -2,6 +2,7 @@
   "name": "copasp",
   "version": "0.0.0",
   "scripts": {
+    "deploy": "ng build --prod --base-href=/solido-a1/ && npx gh-pages -d dist/copasp",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -28,6 +29,7 @@
     "@angular/compiler-cli": "^16.0.0",
     "@types/jasmine": "~4.3.0",
     "angular-cli-ghpages": "^0.6.2",
+    "gh-pages": "^5.0.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
