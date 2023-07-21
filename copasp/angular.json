@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/solido-1/",
             "outputPath": "dist/copasp",
             "index": "src/index.html",
             "main": "src/main.ts",
