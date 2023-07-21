@@ -1,0 +1,60 @@
+.acerca {
+    width: 385px;
+    height: 430px;
+    background-color: rgb(88, 87, 87);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.footer-fte{ 
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 30px;
+    color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-weight: bolder;
+  }
+
+  .clientes2{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 18px;
+    color: black;
+    padding-top: 0px;
+    margin-top: 0px;
+ 
+}
+
+.icono-celular,
+.icono-correo {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 20px; 
+  height: 15px;
+}
+
+.redes-sociales{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-final {
+    display: grid;
+    place-items: center;
+    padding-left: 20px;
+    margin-top: 0;
+  }
+
+  .redes-sociales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .redes {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
