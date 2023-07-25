@@ -1,27 +1,31 @@
-
 <div class="container">
-    
-    <div class="selection-message">
-        <p>SOLIDO (I)</p>
-        <h2>Ayudamos a marcas a generar <span class="highlight-text">belleza</span> para la mujer</h2>
-      
-      
-    </div>
 
+  <div class="selection-message">
+      <h2>Contribuimos con las marcas generando insumos <span class="highlight-text">para la belleza
+      </span> de la <span class="highlight-text">mujer.</span></h2>      
+  </div>
+
+  <div class="container-option">
     <div class="selection-option">
-        <div class="left-align-container">
-          <p class="left-align">Elige una opción</p>
-        </div>
+      <div class="left-align-container">
+        <p class="left-align">Elige una opción</p>
       </div>
-
-    
-    <div class="row">
-        <div class="box">Realce</div>
-        <div class="box">Sin realce</div>
     </div>
+      
     <div class="row">
-      <div class="box">Nosotros</div>
-      <div class="box">Contactanos</div>
+      <div class="box" [routerLink]="['/report', 'realce']">Realce</div>
+      <div class="box" [routerLink]="['/report/norealce']">Sin realce</div>
+    </div>
+
+    <div class="row">
+      <div class="box" [routerLink]="['/about']">Nosotros</div>
+      <div class="box" [routerLink]="['/contact']">Contactanos</div>
     </div>
   </div>
+    
+</div>
+
+  
+
+  
   

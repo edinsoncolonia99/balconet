@@ -1,0 +1,50 @@
+.container-2{
+    color: yellow;
+    margin-bottom: 5px;
+    margin-top: 0%;
+    background-color: rgb(0, 114, 214);
+    padding-bottom: 30px;
+    margin-bottom: -1px;
+}
+
+
+.container {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 114, 214);
+    color: white;
+    margin-top: 0px;
+    padding-bottom: 180px;
+  }
+
+  .container p{
+    font-size: 20px;
+  }
+
+  .container h1{
+    font-size: 32px;
+  }
+
+
+
+
+.icono-contact {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 25px; 
+  height: 35px;
+}
+
+.icono-contact-2 {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 45px; 
+    height: 45px;
+  }
+
+
+
+
+
